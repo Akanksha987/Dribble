@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Creation Page</title>
+    <link rel="stylesheet" href="avatar.css">
+</head>
+<body>
+    <img src="Logo.png"/>
+    <header>
+        
+        <h1>Welcome! Let's create your profile.</h1>
+        <p>Let others get to know you better. You can do these later.</p>
+    </header>
+    
+    <section class="avatar-section">
+        <div class="avatar-placeholder">
+            <img src="flower.jpg" alt="Avatar">
+            <input type="file" id="avatar-upload" accept="image/*">
+            <label for="avatar-upload">Choose image</label>
+        </div>
+        <p>Or choose one of our defaults.</p>
+    </section>
+    
+    <section class="location-section">
+        <input type="text" id="location" placeholder="Add your location">
+    </section>
+    
+    <nav>
+        <button id="back-btn" disabled>Back</button>
+        <button id="next-btn">NEXT</button>
+    </nav>
+    
+    <script src="avatar.js"></script>
+</body>
+</html>
+
